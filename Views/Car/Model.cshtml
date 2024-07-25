@@ -1,9 +1,9 @@
-﻿@{
-    @model MyFriends.Models.CarModel
+﻿
+@model MyFriends.Models.ViewModel
 
-    <h1>Car Model: @Model.Model</h1>
-    <h1>Year: @Model.Year</h1>
-}
-
+<div style="background-color:@Model.Color;">
+    <h1>Car Model: @Model.Car.Model</h1>
+    <h1>Year: @Model.Car.Year</h1>
+</div>
 
 
